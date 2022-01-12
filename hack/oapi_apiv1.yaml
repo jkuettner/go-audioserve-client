@@ -1,0 +1,6 @@
+package: apiv1specs
+generate:
+  - types
+  - client
+output:
+  ../pkg/api/v1/specs/specs.go
