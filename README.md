@@ -77,7 +77,7 @@ Output:
 ## Request folder informations
 
 ```go
-folder, err := client.GetFolderPath(ctx, 0, apiv1specs.Path("Austene Jane/Pride And Prejudice"), &apiv1specs.GetColIdFolderPathParams{})
+folder, err := client.GetFolderPath(ctx, 0, apiv1specs.Path("Čapek Karel/R.U.R"), &apiv1specs.GetColIdFolderPathParams{})
 if err != nil {
     panic(err)
 }
